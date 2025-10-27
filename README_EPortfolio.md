@@ -51,7 +51,6 @@ Security must be planned from the beginning of a project by clearly defining aut
 
 As part of the discussion activity, I created a UML Activity Diagram that demonstrates a **Broken Access Control** vulnerability. In this flawed scenario, a system successfully authenticates the user but fails to enforce authorisation, allowing access to protected information.
 
-📌 Placeholder for image. My Activity Diagram will be inserted here:
 
 <img width="672" height="769" alt="Screenshot from 2025-10-27 09-44-18" src="https://github.com/user-attachments/assets/e21db391-a6a1-4c88-bc2d-bdd74be8e110" />
 
