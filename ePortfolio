@@ -1,0 +1,134 @@
+# Secure Software Development E-Portfolio
+
+Welcome to my e-portfolio for the Secure Software Development module at the University of Essex Online (October 2025 Cohort).
+
+This GitHub repository documents my weekly progress, reflections, diagrams, and practical work as part of the module activities. It will grow over time as more units are completed.
+
+---
+
+## 📌 Contents
+
+| Unit | Topic | Status | Link |
+|------|-------|--------|------|
+| Unit 1 | Introduction and Secure UML Modelling | ✅ Completed | [Unit 1 E-Portfolio](Unit-1-Eportfolio.md) |
+| Unit 2 | TBD | 🔄 In progress | Coming soon |
+| Unit 3 | TBD | ⏳ Pending | Coming soon |
+| Unit 4 | TBD | ⏳ Pending | Coming soon |
+
+---
+
+## 🎯 Module Focus
+
+This module explores:
+
+• Secure software architecture  
+• Identifying and mitigating vulnerabilities  
+• OWASP Top 10 risks  
+• Secure coding and design principles  
+• Practical GitHub portfolio creation
+
+The e-portfolio shows both academic and hands-on learning progress.
+
+---
+
+## 👥 Group Assignment Team
+
+Team Name: **WAECHTER**  
+Focus: Secure design proposal for a Copyright Management Enclave application  
+My role: Contribution to design planning and UML modelling activities (more details in Unit 1 section)
+
+---
+
+## 🛠 Tools Used
+
+• Visual Paradigm  
+• GitHub  
+• Markdown  
+• OWASP Top 10 resources  
+• ISO/IEC 27000 terminology
+
+---
+
+### ✅ Additional Evidence
+
+Each unit folder will contain:
+
+• PDF exports  
+• UML diagrams  
+• Notes and reflections  
+• References where required
+
+---
+
+### 🔐 Author
+
+Franz Stephan  
+Secure Software Development MSc  
+University of Essex Online  
+October 2025 Cohort
+
+---
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+---
+
+## Unit 1: Introduction and Secure Software Design
+
+### Overview of Learning Focus
+
+In Unit 1, the main objective was to understand foundational concepts in secure software development and how poor design decisions can introduce vulnerabilities early in the lifecycle. This included reviewing core security principles, modelling system behaviour using UML, and gaining awareness of the OWASP Top 10 risks that commonly affect web applications.
+
+We explored how design documentation supports both usability and security, particularly by ensuring authentication, authorisation, and data handling processes are correctly implemented before any coding takes place.
+
+---
+
+### Secure UML Modelling Task
+
+As part of the discussion activity, I created a UML Activity Diagram showing a **Broken Access Control** vulnerability path. This demonstrates a situation where a system correctly authenticates a user but fails to enforce authorisation checks before exposing protected resources.
+
+This diagram supports OWASP A01:2021 guidance that access must be verified at every interaction with sensitive data.
+
+📌 *Placeholder for diagram image. I will upload the PNG into the repository and link it here:*
+
+`![Broken Access Control Activity Diagram](images/unit1-activity-diagram.png)`
+
+I provided an initial discussion post analysing the weakness and recommended UML models to prevent it. I also responded constructively to two peers by suggesting enhancements to their diagrams and security flows.
+
+---
+
+### Readings and Learning Resources Completed
+
+• Buelta (2022) on secure architecture patterns and modular design  
+• Velepucha and Flores (2023) on microservices principles and design challenges  
+• ISO/IEC 27000 Section 3 terminology related to access control and accountability  
+• OWASP Top 10 2021 risk awareness  
+• Lecturecast content introducing UML and security design modelling
+
+These readings helped form a deeper understanding of how authentication, authorisation, input validation, and service boundaries should be enforced at the design stage.
+
+---
+
+### Group Project Progress (Team WAECHTER)
+
+I joined the group **WAECHTER** and contributed to early planning activities.  
+We drafted a role/task outline for our secure copyright management enclave proposal, including:
+
+• Identifying required security-critical components  
+• Assigning research and diagram tasks  
+• Establishing communication and documentation structure  
+• Linking our work to ISO security controls and OWASP risks
+
+---
+
+### Technical Skills and Tools Used
+
+Throughou
+
+
+
+
+
+
+
