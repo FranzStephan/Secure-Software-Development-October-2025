@@ -53,7 +53,8 @@ As part of the discussion activity, I created a UML Activity Diagram that demons
 
 📌 Placeholder for image. My Activity Diagram will be inserted here:
 
-`![Broken Access Control Activity Diagram](images/unit1-broken-access-control-diagram.png)`
+<img width="672" height="769" alt="Screenshot from 2025-10-27 09-44-18" src="https://github.com/user-attachments/assets/e21db391-a6a1-4c88-bc2d-bdd74be8e110" />
+
 
 In my initial post, I explained the vulnerability and recommended UML models for secure design. I also provided peer responses, suggesting improvements to classmates regarding validation placement and threat prevention.
 
