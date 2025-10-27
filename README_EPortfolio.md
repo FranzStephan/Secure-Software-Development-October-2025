@@ -54,6 +54,21 @@ As part of the discussion activity, I created a UML Activity Diagram that demons
 
 <img width="672" height="769" alt="Screenshot from 2025-10-27 09-44-18" src="https://github.com/user-attachments/assets/e21db391-a6a1-4c88-bc2d-bdd74be8e110" />
 
+Fellow Peer Feedback for my diagram :" 	
+Franz, thank you for this well-structured analysis of OWASP A01:2021. Your identification of the critical gap between authentication and authorisation is precisely where many real-world breaches occur, and your use of UML Activity Diagrams to model this vulnerability demonstrates strong understanding of secure design principles.
+
+What I appreciate about your flowchart:
+
+Your diagram effectively illustrates the sequence of the vulnerability materialising. The clear visual separation between the authentication decision point and the subsequent missing authorisation check makes the flaw immediately apparent. The inclusion of "Log security event 6" after returning 401 Unauthorized shows good practice in maintaining audit trails (ISO, 2018). Additionally, your use of standardised UML notation with proper swim-lane structure and decision nodes enhances readability and professional rigour (Booch et al., 2005).
+
+Suggested improvements:
+
+While your diagram successfully shows the "False" path from the authorisation check leading to protected data return, I would suggest explicitly labelling the "True" path to clarify what happens when authorisation is correctly enforced. Currently, both paths appear to converge at the end state, which may confuse readers about the secure versus insecure outcomes.
+
+Furthermore, consider adding a security logging step after the failed authorisation check (similar to your authentication logging), as OWASP (2021) emphasises that detecting and responding to access control failures requires comprehensive logging. A note indicating where the authorisation logic should retrieve permission data from role-based access control (RBAC) tables, attribute-based policies, or ownership validation, would strengthen the diagram's practical application (Buelta, 2022).
+
+Finally, you might enhance the "Process request metadata" step by showing what specific metadata elements (user roles, resource identifiers, permissions) are extracted, making the authorisation decision point more traceable during implementation."
+
 
 In my initial post, I explained the vulnerability and recommended UML models for secure design. I also provided peer responses, suggesting improvements to classmates regarding validation placement and threat prevention.
 
