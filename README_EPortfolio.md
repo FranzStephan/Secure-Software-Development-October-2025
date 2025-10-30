@@ -121,48 +121,33 @@ OWASP (2021) *OWASP Top 10 2021 The Ten Most Critical Web Application Security R
 Visual Paradigm (2025) *Visual Paradigm Online*. Available at: https://online.visual-paradigm.com/ (Accessed: 28 October 2025).
 
 ---
+## Unit 2: UML Modelling to Support Secure System Planning  
 
-Unit 2: UML Modelling to Support Secure System Planning
-Overview of Learning Focus
+### **Overview of Learning Focus**  
+Unit 2 built on the secure design concepts from Unit 1 by showing how security activities can be embedded throughout the agile Software Development Life Cycle (SDLC). The focus was on maintaining agility while ensuring traceable and continuous security integration. The required reading by Sharma and Bawa (2020) presented a structured approach to embedding lightweight but effective security tasks into agile workflows.  
 
-Unit 2 built on the secure design concepts from Unit 1 by showing how software security practices can be integrated throughout the agile Software Development Life Cycle (SDLC). The emphasis was on maintaining agility while embedding effective and measurable security activities. I reviewed the Sharma and Bawa (2020) framework for secure agile development and studied how UML flowcharts can visualise the points at which security checks occur within a system design.
+### **Key Learning and Activities**  
+The Sharma and Bawa (2020) study explained how security gaps arise from fast releases and limited documentation. To close these gaps, the authors proposed selecting high-benefit, low-cost security activities from four well-known security engineering processes (CLASP, Microsoft SDL, Common Criteria, Cigital Touchpoints). These were validated through a systematic literature review, a practitioner survey of 97 participants, and statistical ranking tests.  
 
-Key Learning and Activities
+The resulting framework maps suitable security actions to each SDLC phase:  
+- **Pre-requirement:** initial security education for the team  
+- **Requirements:** role matrix, definition agreement, trust boundaries  
+- **Design:** secure design principles, assumption documentation, risk analysis  
+- **Implementation:** coding rules, authorised security tools, static code analysis  
+- **Testing:** dynamic analysis, vulnerability testing, penetration testing  
+- **Release:** operational readiness, code signing, incident response planning  
 
-The required reading by Sharma and Bawa (2020) identified the gap between rapid agile delivery and structured security engineering. They proposed a lightweight framework that selects high-benefit, low-cost security activities from processes such as CLASP, Microsoft SDL, Common Criteria and Cigital Touchpoints. These activities are ranked through empirical methods, including literature review, practitioner surveys and non-parametric statistical testing, to identify which controls best fit agile environments.
+I also reviewed ISO/IEC 27000 terminology (confidentiality, integrity, availability, threat, vulnerability, risk and control) to ensure that agile activities align with internationally recognised definitions.  
 
-The paper clarified that security can be integrated into each SDLC phase without overloading the process:
+### **Reflection: What I Learned**  
+This unit confirmed that secure development can coexist with agile practice if security is distributed across iterations rather than postponed until release. Small, repeatable controls such as static analysis in CI pipelines or role-based access checks maintain speed without sacrificing protection.  
 
-Pre-requirement: initial team security education
+Although I did not attend the live seminar, my previous UML experience supported independent study. I used UML to visualise where authentication, authorisation and logging occur, helping to communicate security logic clearly to team members. The reading reinforced that UML acts as a shared language between developers and security specialists.  
 
-Requirements: creation of a role matrix, definition agreement, and trust boundary identification
+### **Reading and Learning Completed**  
+- Sharma, A. and Bawa, R. K. (2020) *Identification and Integration of Security Activities for Secure Agile Development.* *International Journal of Information Technology,* 14 (1117-1130).  
+- ISO/IEC 27000 series on security terminology and assurance  
+- OWASP Top 10 (2025) guidance on common software weaknesses  
+- Previous UML modelling practice from Unit 1  
 
-Design: secure design principles, assumption documentation and risk analysis
-
-Implementation: coding rules, static code analysis and authorised security tools
-
-Testing: dynamic analysis, vulnerability and penetration testing
-
-Release: operational readiness, incident response planning and repository improvement
-
-This structure demonstrated how a minimal set of consistent security practices can maintain agility while preventing critical vulnerabilities.
-
-I also reviewed ISO/IEC security terminology, including confidentiality, integrity, availability, threat, vulnerability and control. Applying these terms within agile clarified how to track and communicate security risk using common standards.
-
-Reflection
-
-This unit reinforced that secure development is most effective when applied continuously rather than added at the end of a project. Agile frameworks already provide the rhythm needed for recurring security checks, such as static analysis in CI pipelines or incident readiness at release. The Sharma and Bawa (2020) study offered a practical bridge between academic security models and day-to-day agile practice.
-
-Although I did not attend the live seminar, the reading and prior experience with UML diagrams provided sufficient insight into how secure modelling supports system planning. UML remains an efficient way to illustrate where authentication, authorisation and validation occur, and it helps align developers and security specialists under a shared visual standard.
-
-Reading and Learning Completed
-
-Sharma, A. and Bawa, R. K. (2020) Identification and Integration of Security Activities for Secure Agile Development. International Journal of Information Technology, 14 (1117-1130).
-
-ISO/IEC 27000 series on security terminology and assurance
-
-OWASP Top 10 (2025) for understanding common software weaknesses
-
-Previous UML modelling practice from Unit 1
-
-These readings and activities have deepened my understanding of how to plan secure software using agile principles while maintaining speed, clarity and accountability across all SDLC stages.
+These sources strengthened my understanding of how secure planning and UML modelling support risk visibility throughout the agile SDLC.
