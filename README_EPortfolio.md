@@ -122,4 +122,47 @@ Visual Paradigm (2025) *Visual Paradigm Online*. Available at: https://online.vi
 
 ---
 
-*More units will be added as the module progresses.*
+Unit 2: UML Modelling to Support Secure System Planning
+Overview of Learning Focus
+
+Unit 2 built on the secure design concepts from Unit 1 by showing how software security practices can be integrated throughout the agile Software Development Life Cycle (SDLC). The emphasis was on maintaining agility while embedding effective and measurable security activities. I reviewed the Sharma and Bawa (2020) framework for secure agile development and studied how UML flowcharts can visualise the points at which security checks occur within a system design.
+
+Key Learning and Activities
+
+The required reading by Sharma and Bawa (2020) identified the gap between rapid agile delivery and structured security engineering. They proposed a lightweight framework that selects high-benefit, low-cost security activities from processes such as CLASP, Microsoft SDL, Common Criteria and Cigital Touchpoints. These activities are ranked through empirical methods, including literature review, practitioner surveys and non-parametric statistical testing, to identify which controls best fit agile environments.
+
+The paper clarified that security can be integrated into each SDLC phase without overloading the process:
+
+Pre-requirement: initial team security education
+
+Requirements: creation of a role matrix, definition agreement, and trust boundary identification
+
+Design: secure design principles, assumption documentation and risk analysis
+
+Implementation: coding rules, static code analysis and authorised security tools
+
+Testing: dynamic analysis, vulnerability and penetration testing
+
+Release: operational readiness, incident response planning and repository improvement
+
+This structure demonstrated how a minimal set of consistent security practices can maintain agility while preventing critical vulnerabilities.
+
+I also reviewed ISO/IEC security terminology, including confidentiality, integrity, availability, threat, vulnerability and control. Applying these terms within agile clarified how to track and communicate security risk using common standards.
+
+Reflection
+
+This unit reinforced that secure development is most effective when applied continuously rather than added at the end of a project. Agile frameworks already provide the rhythm needed for recurring security checks, such as static analysis in CI pipelines or incident readiness at release. The Sharma and Bawa (2020) study offered a practical bridge between academic security models and day-to-day agile practice.
+
+Although I did not attend the live seminar, the reading and prior experience with UML diagrams provided sufficient insight into how secure modelling supports system planning. UML remains an efficient way to illustrate where authentication, authorisation and validation occur, and it helps align developers and security specialists under a shared visual standard.
+
+Reading and Learning Completed
+
+Sharma, A. and Bawa, R. K. (2020) Identification and Integration of Security Activities for Secure Agile Development. International Journal of Information Technology, 14 (1117-1130).
+
+ISO/IEC 27000 series on security terminology and assurance
+
+OWASP Top 10 (2025) for understanding common software weaknesses
+
+Previous UML modelling practice from Unit 1
+
+These readings and activities have deepened my understanding of how to plan secure software using agile principles while maintaining speed, clarity and accountability across all SDLC stages.
