@@ -179,7 +179,8 @@ This unit also prepared the ground for the development team project by introduci
 - Traced the evolution from the Small Scale Experimental Machine and EDSAC to business systems such as LEO, then to higher level languages such as Cobol, Fortran, Lisp and ALGOL.
 - Outlined how these developments led to modern paradigms, for example imperative, functional and object oriented approaches, and how these paradigms influence language behaviour and typical usage.
 
-![Evolution of Programming Languages](ca7e3629-6569-4c8b-ab19-5c1e8428fef0.png)
+<img width="955" height="558" alt="Screenshot from 2025-11-04 11-25-33" src="https://github.com/user-attachments/assets/f4c46c1a-1407-4434-b7d2-90da218daf7a" />
+
 
 This diagram summarises how early languages influenced later ones and how major paradigms emerged over time, shaping the foundation for today’s software ecosystems.
 
@@ -187,7 +188,8 @@ This diagram summarises how early languages influenced later ones and how major 
 
 Before diving into paradigms and architectures, the unit revisited how computers represent characters and symbols. The ASCII and Unicode standards define how text and control characters are encoded as numerical values, ensuring that languages and systems exchange information consistently.
 
-![ASCII and Unicode Table](e5714264-01f2-46bb-a446-068378b86cd8.png)
+<img width="151" height="121" alt="Screenshot from 2025-11-04 11-29-17" src="https://github.com/user-attachments/assets/2eac0b53-8019-4903-905a-1436fcc5349e" />
+
 
 Recognising how encoding evolved from ASCII to Unicode clarified why programming languages need strict definitions for character sets, escape sequences and data representation. It also connected to software security, since encoding errors often cause vulnerabilities like injection or buffer overflow exploits.
 
