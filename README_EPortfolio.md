@@ -264,3 +264,46 @@ Overall, Unit 3 strengthened my understanding of how programming languages, arch
 
 These readings and activities deepened my understanding of how programming language design, architectural patterns and testing approaches combine to support secure, scalable systems.
 
+
+# Unit 4: Introduction to Testing
+
+## In this unit I:
+
+- Explored the types of questions that need to be asked when developing a test plan.
+- Became familiar with two industry software testing standards for secure development.
+- Examined a range of testing techniques and considered which are appropriate in different testing scenarios.
+- Looked at tools and frameworks that support and automate Python testing processes.
+- Reflected on how an ontology can support a distributed architecture and standardised deployments.
+
+## On completion of this unit I am able to:
+
+- Describe key terms associated with testing software for security.
+- Prepare a list of questions to ask when designing a test plan for secure software.
+- Design software tests by understanding the range of ways in which the security of software can be breached.
+- Outline an ontology that can be used in standardised service deployments.
+
+## Key learning and activities
+
+During this unit I linked traditional software testing concepts with security focused testing. The material highlighted that security testing is not a separate activity but an extension of good testing practice. Studying the different categories of testing, such as functional, usability, performance, penetration and vulnerability testing, helped me understand how each one targets specific risks and attack surfaces in a system.
+
+I also looked at industry standards discussed in the readings, which reinforced that test planning should be systematic and repeatable. The emphasis on clear test objectives, test cases and traceability supports both quality assurance and evidence for security compliance.
+
+A practical element of the unit involved using Python testing tools and linters, including security focused tools such as Bandit. Automating checks for insecure patterns, unused imports and style issues showed how continuous testing can be built into a development workflow so that security problems are identified early.
+
+## Reflection
+
+This unit made it clear that secure software development depends on a disciplined testing strategy. Instead of viewing testing as a final step, I now see it as an integral part of the development lifecycle that starts with requirements and architecture. Thinking about test questions first helps reveal assumptions in the design and encourages me to consider how an attacker might abuse a feature.
+
+Working with Python tooling showed me how automation can reduce human error and keep the cost of testing manageable. Security linters and static analysis cannot replace human judgement, but they provide a useful safety net and make it easier to maintain a consistent level of quality across a codebase. The discussion of ontologies and distributed architectures also connected testing to the broader structure of a system, reminding me that test design has to reflect how services interact in practice, not just how individual components behave in isolation.
+
+## Required reading
+
+- Buelta, J. (2022) *Python Architecture Patterns: Master API Design, Event-Driven Structures, and Package Management in Python.* Birmingham, UK: Packt Publishing Ltd.  
+  - Chapter 3  
+  - Chapter 4  
+  - Chapter 10  
+
+- Khan, R. A. et al. (2022) ‘Systematic literature review on security risks and its practices in secure software development’, *IEEE Access*, 10, pp. 5456-5481.
+
+- TutorialPoint (2020) *Cryptography with Python Tutorial.*
+
