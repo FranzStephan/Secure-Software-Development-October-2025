@@ -340,3 +340,37 @@ The discussion of emerging technologies highlighted how traditional assumptions 
 Reviewing the group assignment feedback allowed me to connect these concepts to practical design work. It helped me understand how secure APIs, modular design and distributed deployment models fit into modern secure development workflows. Going forward, I plan to apply these insights to improve my approach to designing secure distributed systems.
 
 
+# Unit 6: The Security of Programming Languages Debate
+
+## In this unit I:
+
+- Reviewed the security capabilities of several programming languages, including F#, Python, Rust and Swift.
+- Engaged in a debate about the strengths and weaknesses of these languages from a security perspective.
+- Explored advances needed to support secure programming in modern systems.
+- Began preparing for my individual development assignment for this module.
+
+## On completion of this unit I am able to:
+
+- Recommend which programming language is most suitable to support a secure system.
+- Provide evidence to justify this recommendation.
+- Make recommendations on how programming languages might be extended to meet the security needs of modern software development.
+
+## Key learning and activities
+
+During this unit I examined how different programming languages address security concerns through design principles, memory management, type systems and built in safety features. Comparing languages such as Rust, Swift, Python and F# helped me understand that each offers different trade offs between performance, usability and security guarantees.
+
+The unit highlighted that languages with strong type systems and memory safety features, such as Rust, provide significant protection against common vulnerabilities. Others, such as Python, offer ease of use and rapid development but depend more heavily on secure coding practices and external libraries. This comparison made it clear that the choice of programming language has a direct impact on the overall security posture of a system.
+
+The seminar debate required me to assess the practical strengths and limitations of each language and defend a position using evidence. This activity helped reinforce the idea that secure development depends not only on language features but also on the context in which the language is used, the skill of the developer and the requirements of the system.
+
+I also began planning my individual development project and reflective document, which form the main assessment for this module. Understanding the capabilities and limitations of programming languages will support my approach to implementing secure code in the assignment.
+
+## Reflection
+
+This unit emphasised that programming languages play a crucial role in shaping the security of software systems. It became clear that memory safety, type checking, concurrency models and package management ecosystems are not theoretical concerns but practical factors that can prevent or introduce vulnerabilities.
+
+The debate helped me think critically about how languages evolve and how extensions or improvements could address modern threats. For example, increasing the adoption of safer defaults, improving dependency management or enhancing tooling could significantly reduce security risks.
+
+Considering these points has prepared me for the upcoming assignment, where I will apply secure programming practices in a practical coding context. The insights from this unit will guide my decisions on implementation, structure and defensive coding techniques as I begin my project.
+
+
