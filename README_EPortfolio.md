@@ -307,3 +307,36 @@ Working with Python tooling showed me how automation can reduce human error and 
 
 - TutorialPoint (2020) *Cryptography with Python Tutorial.*
 
+
+# Unit 5: Future Trends in Secure Software Development
+
+## In this unit I:
+
+- Discussed future trends in secure design, development, programming languages and operating systems.
+- Examined what is meant by fog computing, the Internet of Things and Cyber Physical Systems.
+- Explored systems and solutions that could be considered as potential research topics or fields.
+- Reviewed the feedback from my group assignment to understand how emerging technologies could influence secure development.
+
+## On completion of this unit I am able to:
+
+- Give examples of fog computing, IoT and Cyber Physical System components and solutions.
+- Describe security issues associated with these systems.
+- Recommend emerging technologies and solutions to investigate.
+
+## Key learning and activities
+
+During this unit I examined how trends in secure design and distributed computing influence the future of software development. The material showed how programming languages and operating systems are evolving to support more secure and reliable systems, especially through improved memory safety, isolation and automation.
+
+I studied the concepts of fog computing, IoT and Cyber Physical Systems. Understanding how these systems distribute computation across sensors, gateways, edge devices and cloud environments helped me recognise why they introduce new attack surfaces. Limited device resources, inconsistent standards and physical exposure make secure deployment more challenging.
+
+In addition to the unit content, I reviewed the feedback from my group assignment. This helped me identify where our design aligned with modern secure development practices and where we could have integrated distributed architectures or emerging technologies more effectively. This reflection reinforced the importance of designing with scalability, interoperability and future trends in mind.
+
+## Reflection
+
+This unit made it clear that secure software development is increasingly focused on interconnected and distributed environments. Rather than treating systems as isolated components, I now see how fog computing, IoT and Cyber Physical Systems depend on coordination between devices, networks and cloud services. This shifts security considerations toward architectural decisions, trust boundaries and continuous monitoring.
+
+The discussion of emerging technologies highlighted how traditional assumptions can fail in environments that involve physical processes, heterogeneous devices and real time communication. Ensuring security in these systems requires lightweight controls, reliable update mechanisms and resilient communication channels.
+
+Reviewing the group assignment feedback allowed me to connect these concepts to practical design work. It helped me understand how secure APIs, modular design and distributed deployment models fit into modern secure development workflows. Going forward, I plan to apply these insights to improve my approach to designing secure distributed systems.
+
+
